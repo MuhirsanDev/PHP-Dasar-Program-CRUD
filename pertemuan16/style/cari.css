@@ -1,0 +1,35 @@
+/* Style untuk input text */
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 200px; /* Sesuaikan lebar sesuai kebutuhan */
+  margin-right: 5px;
+}
+
+/* Style untuk tombol submit */
+button[type="submit"] {
+  padding: 8px 12px;
+  background-color: #4CAF50; /* Warna latar belakang */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect pada tombol submit */
+button[type="submit"]:hover {
+  background-color: #45a049; /* Warna latar belakang pada hover */
+}
+
+/* Optional: Style untuk placeholder pada input text */
+input[type="text"]::placeholder {
+  color: #999; /* Warna placeholder */
+}
+
+/* Optional: Style untuk autofokus pada input text */
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #4CAF50; /* Warna border saat input text di-fokuskan */
+}
